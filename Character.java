@@ -6,15 +6,23 @@ class Character{
     //parent constructor
     Character(String name, int health, int level){
         this.name = name;
-        this.health = health;
+        if (health >= 0){
+            this.health = health;
+        }
         this.level = level;
     }
     void attack(){
-        System.out.printf("Character attacks");
+        System.out.printf("Character attacks%n");
     }
     //getter
-     public String getName(){
+    public String getName(){
         return name;
+    }
+    public int getHealth(){
+        return health;
+    }
+    public int getlevel(){
+        return level;
     }
 }
 
@@ -30,7 +38,7 @@ class Warrior extends Character{
     //Warrior attack 
     @Override
     void attack(){
-        System.out.printf("%s attacks with a sword" , this.getName());
+        System.out.printf("%s attacks with a sword%n" , this.getName());
         
     }
 }
@@ -45,7 +53,7 @@ class Mage extends Character{
     //Mage attack
     @Override
     void attack(){
-        System.out.printf("%s casts a spell" , this.getName());
+        System.out.printf("%s casts a spell %n" , this.getName());
         
     }
 }
