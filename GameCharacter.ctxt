@@ -1,0 +1,14 @@
+#BlueJ class context
+#Fri Aug 28 23:51:20 CDT 2026
+comment0.target=GameCharacter
+comment1.params=name health level
+comment1.target=GameCharacter(java.lang.String, int, int)
+comment2.target=void attack()
+comment3.params=amount
+comment3.target=void takeDamage(int)
+comment4.params=amount
+comment4.target=void heal(int)
+comment5.target=java.lang.String getName()
+comment6.target=int getHealth()
+comment7.target=int getLevel()
+numComments=8

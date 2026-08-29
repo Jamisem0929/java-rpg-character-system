@@ -1,0 +1,8 @@
+#BlueJ class context
+#Sat Aug 29 00:06:13 CDT 2026
+comment0.target=Warrior
+comment1.params=name health level strength
+comment1.target=Warrior(java.lang.String, int, int, int)
+comment2.target=int getStrength()
+comment3.target=void attack()
+numComments=4

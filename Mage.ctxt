@@ -1,0 +1,8 @@
+#BlueJ class context
+#Sat Aug 29 00:01:50 CDT 2026
+comment0.target=Mage
+comment1.params=name health level mana
+comment1.target=Mage(java.lang.String, int, int, int)
+comment2.target=int getMana()
+comment3.target=void attack()
+numComments=4
