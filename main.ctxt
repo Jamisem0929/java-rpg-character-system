@@ -1,6 +1,8 @@
 #BlueJ class context
-#Sat Aug 29 12:17:46 CDT 2026
-comment0.target=main
+#Sun Aug 30 16:13:32 CDT 2026
+comment0.target=Main
 comment1.params=args
 comment1.target=void main(java.lang.String[])
-numComments=2
+comment2.params=characters targetName
+comment2.target=GameCharacter findCharacter(GameCharacter[], java.lang.String)
+numComments=3

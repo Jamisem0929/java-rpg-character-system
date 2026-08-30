@@ -1,5 +1,5 @@
 #BlueJ class context
-#Sat Aug 29 00:06:13 CDT 2026
+#Sun Aug 30 15:21:30 CDT 2026
 comment0.target=Warrior
 comment1.params=name health level strength
 comment1.target=Warrior(java.lang.String, int, int, int)
