@@ -1,4 +1,4 @@
-class Mage extends GameCharacter{
+public class Mage extends GameCharacter{
     //Mage variables
     private int mana;
     //Mage constructor
