@@ -1,8 +1,12 @@
 #BlueJ class context
-#Sun Aug 30 16:13:32 CDT 2026
+#Sun Aug 30 17:04:12 CDT 2026
 comment0.target=Main
 comment1.params=args
 comment1.target=void main(java.lang.String[])
 comment2.params=characters targetName
 comment2.target=GameCharacter findCharacter(GameCharacter[], java.lang.String)
-numComments=3
+comment3.params=characters
+comment3.target=GameCharacter findHighestHealth(GameCharacter[])
+comment4.params=characters amount
+comment4.target=int countAboveHealth(GameCharacter[], int)
+numComments=5
