@@ -65,7 +65,7 @@ A subclass of `GameCharacter`.
 
 Adds a mana attribute and overrides the attack method with Mage-specific behavior.
 
-### `Main.java`
+### `main.java` (`Main` class)
 
 Creates and stores character objects and demonstrates the project's functionality.
 
@@ -79,6 +79,8 @@ It also contains methods for:
 ## Running the Project
 
 Make sure Java is installed.
+
+The entry-point file is currently named `main.java`, but declares `public class Main`. Before compiling, rename the file to `Main.java` so its capitalization matches the class name.
 
 Compile the Java files:
 
